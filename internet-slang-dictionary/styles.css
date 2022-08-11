@@ -1,0 +1,62 @@
+.App {
+    /* font-family: sans-serif; */
+    text-align: center;
+    /* background-color: "red"; */
+  }
+  input {
+    display: block;
+    width: 80%;
+    height: 10vh;
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+    background-color: #ffedd591;
+  }
+  body {
+    background-image: url("http://dqliving.com/wp-content/uploads/2021/08/IMG_E8649.jpg");
+    /* background-repeat: no-repeat;
+    background-size: cover;*/ /* first background image good in laptop but not in mobile. */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    /* height: 100%;  */
+    /* background-attachment: fixed; */
+    /* background-position: center center;  */
+    font-family: "Sriracha", cursive;
+    display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .translation_header {
+    font-size: x-large;
+    background-color: #ffedd5;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+  }
+  .footer_translation {
+    background-color: #ffedd5e7;
+    padding: 0.5rem 0rem;
+    text-align: center;
+    color: black;
+  }
+  
+  .footer_translation .translation_footer_header {
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: "Sriracha", cursive;
+  }
+  
+  .footer_para {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;
+  }
+  
