@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groot translator</title>
+    <link href="../styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Mansalva&family=Montserrat+Alternates&family=Montserrat:wght@400;700&family=Rampart+One&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'bangers', cursive;
+            background-image: url("../images/Baby-Groot-Desktop-Wallpaper-1024x576.jpg");
+            background-repeat: repeat;
+            background-size:contain;
+            background-position: center;
+            /* height: 100%; */
+            /* background-attachment: fixed;
+            background-position: center center; */
+
+            /* position: relative; */
+        }
+
+        textarea {
+            display: block;
+            width: 80%;
+            height: 10vh;
+            max-width: 600px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+        #btn-translate {
+            font-family: 'bangers', cursive;
+            font-size: medium;
+            height: 10vh;
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+            display: block;
+            padding: 1rem 2rem;
+            background-color: rgb(34, 238, 34);
+            border-color: rgb(255, 0, 0);
+            color: black;
+            font-weight: bolder;
+            border-radius: 0.5rem;
+        }
+
+        .translation-text {
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+            display: block;
+            padding: 1rem;
+        }
+
+        #output-text {
+            border: 1px solid black;
+            height: 20vh;
+            width: 80%;
+            max-width: 600px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+
+
+        .translation_header {
+            background-color: rgb(34, 238, 34);
+            color: black;
+            text-align: center;
+            padding: 1rem;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .footer_translation {
+            background-color: rgb(34, 238, 34);
+            padding: 1rem 0rem;
+            text-align: center;
+            color: black;
+        }
+
+        .footer_translation .translation_footer_header {
+            font-weight: bold;
+            font-size: x-large;
+            font-family: 'bangers', cursive;
+        }
+
+        .footer_para {
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+            display: block;
+            padding: 0.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="translation_header">
+        <div class="translation_header">English to Groot's language translator</div>
+        </div>
+    </nav><br>
+    <textarea id="input-text" placeholder="Enter your'e sentence here to convert to groot's language..."></textarea><br>
+    <button id="btn-translate">TRANSLATE</button>
+    <div style="font-size:larger" class="translation-text">Translation will come here 👇</div>
+    <div id="output-text"></div><br><br><br>
+    <script src="./app2.js" typ="text/javascript"></script>
+    <footer class="footer_translation">
+        <div class="translation_footer_header">about</div>
+        <p class="footer_para">Groot is a Flora colossus from Planet X, the capital of the branch worlds. The Flora
+            colossi are tree-like beings whose language is almost impossible to understand due to the stiffness of their
+            larynxes, causing their speech to sound like they are repeating the phrase "I am Groot"
+            Use the translator
+            to convert your text from English to Groot's language.</p>
+    </footer>
+</body>
+
+</html>

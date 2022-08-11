@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minion translator</title>
+    <link href="../styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Mansalva&family=Montserrat+Alternates&family=Montserrat:wght@400;700&family=Rampart+One&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Rampart One', cursive;
+            background-image: url("../images/Minions-rise-of-gru.jpg");
+            /* background-repeat: no-repeat;
+            background-size: cover;*/  /* first background image good in laptop but not in mobile. */
+            background-repeat: repeat;
+            background-size:contain;
+            background-position:center;
+            /* height: 100%; */
+            /* background-attachment: fixed;
+            background-position: center center; */
+
+            /* position: relative; */
+        }
+        textarea {
+            display: block;
+            width: 80%;
+            height: 10vh;
+            max-width: 600px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+        #btn-translate {
+            font-family: 'Rampart One', cursive;
+            font-size:large;
+            height: 10vh;
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+            display: block;
+            padding: 1rem 2rem;
+            background-color: rgb(255, 217, 2);
+            border-color: rgb(5, 216, 23);
+            color: black;
+            font-weight: bolder;
+            border-radius: 0.5rem;
+        }
+
+        .translation-text {
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+            display: block;
+            padding: 1rem;
+        }
+
+        #output-text {
+            border: 1px solid black;
+            height: 20vh;
+            width: 80%;
+            max-width: 600px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+
+
+        .translation_header {
+            font-size:x-large;
+            background-color: rgb(255, 217, 2);
+            color: black;
+            text-align: center;
+            padding: 1rem;
+            font-weight: bold;
+        }
+
+        .footer_translation {
+            background-color: rgb(255, 217, 2);
+            padding: 1rem 0rem;
+            text-align: center;
+            color: black;
+        }
+
+        .footer_translation .translation_footer_header {
+            font-weight: bolder;
+            font-size: xx-large;
+            font-family:'Rampart One', cursive;
+        }
+
+        .footer_para {
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+            display: block;
+            padding: 0.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="translation_header">
+        <div class="translation_header">English to Minion's language translator</div>
+        </div>
+    </nav><br>
+    <textarea id="input-text"
+        placeholder="Enter your'e sentence here to convert to minion's language..."></textarea><br>
+    <button id="btn-translate">TRANSLATE</button>
+    <div style="font-size:larger" class="translation-text">Translation will come here 👇</div>
+    <div id="output-text"></div><br><br><br>
+    <script src="./app1.js" typ="text/javascript"></script>
+    <footer class="footer_translation">
+        <div class="translation_footer_header">about</div>
+        <p class="footer_para">Are you a fan of minions? Did you know that the gibberish they say is an actual language.
+            Use the translator
+            to convert your text from English to Minion's language.</p>
+    </footer>
+</body>
+
+</html>
